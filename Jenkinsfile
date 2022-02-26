@@ -8,7 +8,7 @@ pipeline {
            git credentialsId: '', url: 'https://github.com/abhishek7389/jenkins-ansible-automation-for-windows'
            // Do a ls -lart to view all the files are cloned. It will be clonned. This is just for you to be sure about it.
            sh "ls -lart ./*" 
-           // List all branches in your repo. 
+           // print the directory where you're files are copied. 
            sh "pwd"
           }
        }
