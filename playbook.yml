@@ -1,0 +1,6 @@
+- hosts: win
+  tasks:
+    - name: Copy a single file
+      win_copy:
+        src: /home/abhishek_sharma_searce_com/test2.txt
+        dest: C:\test2.txt
