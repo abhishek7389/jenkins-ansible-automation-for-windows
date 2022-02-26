@@ -1,0 +1,10 @@
+#ansible inventory details
+
+[win]
+192.168.0.233
+
+[win:vars]
+ansible_user=adminuser
+ansible_password=Complicated@123
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
