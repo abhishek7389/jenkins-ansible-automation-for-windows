@@ -15,7 +15,7 @@ pipeline {
     }
     stage("Apply Ansible Playbook"){
       steps{
-           ansiblePlaybook credentialsId: '', disableHostKeyChecking: true, installation: 'Ansible', inventory: '/etc/ansible/hosts', playbook: '/home/abhishek_sharma_searce_com/playbook.yml'
+           ansiblePlaybook credentialsId: '', disableHostKeyChecking: true, installation: 'Ansible', inventory: '/etc/ansible/hosts', playbook: '/home/abhishek/playbook.yml'
       }
     }
   }
